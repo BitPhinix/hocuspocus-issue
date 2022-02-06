@@ -1,0 +1,13 @@
+{
+  "name": "slate-yjs",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "yarn workspaces foreach -ipv run dev"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}
